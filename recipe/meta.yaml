@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/gpuopenanalytics/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 465db2da0471b0ee9fe04bbeca6545d9fb5627181b0abac272ca0767b1579d00
+  sha256: b781e49691c7207d5f1e6e95cfc0d14ee9a4a12614da0a43e924de2df047c60f 
 
 build:
   noarch: python
