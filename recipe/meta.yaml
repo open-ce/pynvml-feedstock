@@ -3,7 +3,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{version}}
+  version: {{ version }}
 
 source:
   url: https://github.com/gpuopenanalytics/{{ name }}/archive/{{ version }}.tar.gz
@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -27,7 +27,7 @@ test:
 
 about:
   home: https://github.com/gpuopenanalytics/{{ name }}
-  license: BSD
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: 'Python Bindings for the NVIDIA Management Library'
