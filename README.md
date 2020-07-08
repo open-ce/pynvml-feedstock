@@ -5,7 +5,7 @@ Home: https://github.com/gpuopenanalytics/pynvml
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python Bindings for the NVIDIA Management Library
 
@@ -119,7 +119,4 @@ Feedstock Maintainers
 =====================
 
 * [@rjzamora](https://github.com/rjzamora/)
-
-
-<!-- dummy commit to enable rerendering -->
 
