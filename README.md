@@ -3,7 +3,7 @@ About pynvml
 
 Home: https://github.com/gpuopenanalytics/pynvml
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD-3-Clause
 
