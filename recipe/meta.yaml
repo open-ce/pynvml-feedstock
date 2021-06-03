@@ -1,5 +1,5 @@
 {% set name = "pynvml" %}
-{% set version = "8.0.4" %}
+{% set version = "11.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/gpuopenanalytics/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 759603235ca8b1e39125db9cf98b132734438bb2f5bc69eb27e73c75646a29c8 
+  sha256: 7380ebb0efd5bf94daff12fd234e2226e779a6d63f1e17d5600f4fcb6ee158cf
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Python Bindings for the NVIDIA Management Library'
+  summary: Python Bindings for the NVIDIA Management Library
   description: |
     This is a wrapper around the NVML library. For information about
     the NVML library, see <http://developer.nvidia.com>.
